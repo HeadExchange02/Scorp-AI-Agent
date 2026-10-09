@@ -2,7 +2,7 @@
 
 An n8n workflow that connects a Facebook Page to an AI agent, so incoming Messenger messages get automatic, context-aware replies.
 
-**Workflow name:** `1. Facebook page Scorp messenger Agent virson_2.5.0`
+**Workflow name:** `1. Facebook page Scorp messenger Agent`
 **Version:** 2.5.0
 **Tags:** Facebook Automation, ReadyToUse, _Blueprint
 
@@ -13,6 +13,14 @@ The workflow listens for messages sent to your Facebook Page, passes them to an 
 ```
 Messenger message -> n8n Webhook -> AI Agent -> Reply via Messenger Send API
 ```
+
+## Review
+
+- ScreenShot:
+![alt text](/review/image.png)
+
+- Video:
+<video controls src="/review/messenger_ai_agent.mp4" title="Title"></video>
 
 ## Features
 
@@ -79,7 +87,7 @@ Messenger message -> n8n Webhook -> AI Agent -> Reply via Messenger Send API
 .
 ├── README.md
 └── workflows/
-    └── facebook-messenger-agent-v2.5.0.json
+    └── facebook-messenger-agent.json
 ```
 
 ## License
